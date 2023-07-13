@@ -1,0 +1,38 @@
+#cluster-map {
+    width: 100%;
+    height: 500px;
+}
+
+#map {
+    width: 100%;
+    height: 300px;
+}
+
+.mapboxgl-ctrl-zoom-in, .mapboxgl-ctrl-zoom-out, .mapboxgl-ctrl-compass {
+    width: 100px; 
+    height: 30px; 
+    margin-right: 15px;
+    border: 0px;
+    margin-bottom: 1rem;
+}
+
+.mapboxgl-ctrl-zoom-in:before {
+    content: "Zoom In";
+}
+
+.mapboxgl-ctrl-zoom-out:before {
+    content: "Zoom Out";
+}
+
+.mapboxgl-ctrl-compass:before {
+    content: "Reset Axis";
+}
+
+.mapboxgl-ctrl-attrib-inner {
+    display:grid;
+}
+
+h1 {
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+}
